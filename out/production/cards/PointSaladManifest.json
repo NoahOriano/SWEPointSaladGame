@@ -1,0 +1,202 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "criteria": {
+                "PEPPER": "MOST LETTUCE = 10",
+                "LETTUCE": "MOST PEPPER = 10",
+                "CARROT": "MOST CABBAGE = 10",
+                "CABBAGE": "MOST CARROT = 10",
+                "ONION": "MOST TOMATO = 10",
+                "TOMATO": "MOST ONION = 10"
+            }
+        },
+        {
+            "id": 2,
+            "criteria": {
+                "PEPPER": "FEWEST LETTUCE = 7",
+                "LETTUCE": "FEWEST PEPPER = 7",
+                "CARROT": "FEWEST CABBAGE = 7",
+                "CABBAGE": "FEWEST CARROT = 7",
+                "ONION": "FEWEST TOMATO = 7",
+                "TOMATO": "FEWEST ONION = 7"
+            }
+        },
+        {
+            "id": 3,
+            "criteria": {
+                "PEPPER": "LETTUCE: EVEN=7, ODD=3",
+                "LETTUCE": "PEPPER: EVEN=7, ODD=3",
+                "CARROT": "CABBAGE: EVEN=7, ODD=3",
+                "CABBAGE": "CARROT: EVEN=7, ODD=3",
+                "ONION": "TOMATO: EVEN=7, ODD=3",
+                "TOMATO": "ONION: EVEN=7, ODD=3"
+            }
+        },
+        {
+            "id": 4,
+            "criteria": {
+                "PEPPER": "2 / LETTUCE",
+                "LETTUCE": "2 / PEPPER",
+                "CARROT": "2 / CABBAGE",
+                "CABBAGE": "2 / CARROT",
+                "ONION": "2 / TOMATO",
+                "TOMATO": "2 / ONION"
+            }
+        },
+        {
+            "id": 5,
+            "criteria": {
+                "PEPPER": "LETTUCE + LETTUCE = 5",
+                "LETTUCE": "PEPPER + PEPPER = 5",
+                "CARROT": "CABBAGE + CABBAGE = 5",
+                "CABBAGE": "CARROT + CARROT = 5",
+                "ONION": "TOMATO + TOMATO = 5",
+                "TOMATO": "ONION + ONION = 5"
+            }
+        },
+        {
+            "id": 6,
+            "criteria": {
+                "PEPPER": "CARROT + ONION = 5",
+                "LETTUCE": "CABBAGE + ONION = 5",
+                "CARROT": "TOMATO + LETTUCE = 5",
+                "CABBAGE": "LETTUCE + ONION = 5",
+                "ONION": "CABBAGE + LETTUCE = 5",
+                "TOMATO": "CARROT + LETTUCE = 5"
+            }
+        },
+        {
+            "id": 7,
+            "criteria": {
+                "PEPPER": "CABBAGE + TOMATO = 5",
+                "LETTUCE": "CARROT + TOMATO = 5",
+                "CARROT": "ONION + PEPPER = 5",
+                "CABBAGE": "TOMATO + PEPPER = 5",
+                "ONION": "CARROT + PEPPER = 5",
+                "TOMATO": "CABBAGE + PEPPER = 5"
+            }
+        },
+        {
+            "id": 8,
+            "criteria": {
+                "PEPPER": "1 / LETTUCE,  1 / ONION",
+                "LETTUCE": "1 / PEPPER,  1 / TOMATO",
+                "CARROT": "1 / CABBAGE,  1 / LETTUCE",
+                "CABBAGE": "1 / CARROT,  1 / PEPPER",
+                "ONION": "1 / TOMATO,  1 / CARROT",
+                "TOMATO": "1 / ONION,  1 / CABBAGE"
+            }
+        },
+        {
+            "id": 9,
+            "criteria": {
+                "PEPPER": "1 / LETTUCE,  1 / TOMATO",
+                "LETTUCE": "1 / PEPPER,  1 / ONION",
+                "CARROT": "1 / CABBAGE,  1 / PEPPER",
+                "CABBAGE": "1 / CARROT,  1 / LETTUCE",
+                "ONION": "1 / TOMATO,  1 / CABBAGE",
+                "TOMATO": "1 / ONION,  1 / CARROT"
+            }
+        },
+        {
+            "id": 10,
+            "criteria": {
+                "PEPPER": "3 / LETTUCE,  -2 / CARROT",
+                "LETTUCE": "3 / PEPPER,  -2 / CABBAGE",
+                "CARROT": "3 / CABBAGE,  -2 / TOMATO",
+                "CABBAGE": "3 / CARROT,  -2 / ONION",
+                "ONION": "3 / TOMATO,  -2 / LETTUCE",
+                "TOMATO": "3 / ONION,  -2 / PEPPER"
+            }
+        },
+        {
+            "id": 11,
+            "criteria": {
+                "PEPPER": "LETTUCE + LETTUCE + LETTUCE = 8",
+                "LETTUCE": "PEPPER + PEPPER + PEPPER = 8",
+                "CARROT": "CABBAGE + CABBAGE + CABBAGE = 8",
+                "CABBAGE": "CARROT + CARROT + CARROT = 8",
+                "ONION": "TOMATO + TOMATO + TOMATO = 8",
+                "TOMATO": "ONION + ONION + ONION = 8"
+            }
+        },
+        {
+            "id": 12,
+            "criteria": {
+                "PEPPER": "PEPPER + LETTUCE + CABBAGE = 8",
+                "LETTUCE": "LETTUCE + PEPPER + CARROT = 8",
+                "CARROT": "CARROT + CABBAGE + ONION = 8",
+                "CABBAGE": "CABBAGE + CARROT + TOMATO = 8",
+                "ONION": "ONION + TOMATO + PEPPER = 8",
+                "TOMATO": "TOMATO + ONION + LETTUCE = 8"
+            }
+        },
+        {
+            "id": 13,
+            "criteria": {
+                "PEPPER": "TOMATO + LETTUCE + CARROT = 8",
+                "LETTUCE": "ONION + PEPPER + CABBAGE = 8",
+                "CARROT": "PEPPER + CABBAGE + TOMATO = 8",
+                "CABBAGE": "LETTUCE + CARROT + ONION = 8",
+                "ONION": "CABBAGE + TOMATO + LETTUCE = 8",
+                "TOMATO": "CARROT + ONION + PEPPER = 8"
+            }
+        },
+        {
+            "id": 14,
+            "criteria": {
+                "PEPPER": "2/LETTUCE,  1/ONION,  -2/PEPPER",
+                "LETTUCE": "2/PEPPER,  1/TOMATO,  -2/LETTUCE",
+                "CARROT": "2/CABBAGE,  1/LETTUCE,  -2/CARROT",
+                "CABBAGE": "2/CARROT,  1/PEPPER,  -2/CABBAGE",
+                "ONION": "2/TOMATO,  1/CARROT,  -2/ONION",
+                "TOMATO": "2/ONION,  1/CABBAGE,  -2/TOMATO"
+            }
+        },
+        {
+            "id": 15,
+            "criteria": {
+                "PEPPER": "2/LETTUCE,  2/CARROT,  -4/ONION",
+                "LETTUCE": "2/PEPPER,  2/CABBAGE,  -4/TOMATO",
+                "CARROT": "2/CABBAGE,  2/TOMATO,  -4/LETTUCE",
+                "CABBAGE": "2/CARROT,  2/ONION,  -4/PEPPER",
+                "ONION": "2/TOMATO,  2/LETTUCE,  -4/CARROT",
+                "TOMATO": "2/ONION,  2/PEPPER,  -4/CABBAGE"
+            }
+        },
+        {
+            "id": 16,
+            "criteria": {
+                "PEPPER": "3/LETTUCE,  -1/ONION,  -1/PEPPER",
+                "LETTUCE": "3/PEPPER,  -1/TOMATO,  -1/LETTUCE",
+                "CARROT": "3/CABBAGE,  -1/LETTUCE,  -1/CARROT",
+                "CABBAGE": "3/CARROT,  -1/PEPPER,  -1/CABBAGE",
+                "ONION": "3/TOMATO,  -1/CARROT,  -1/ONION",
+                "TOMATO": "3/ONION,  -1/CABBAGE,  -1/TOMATO"
+            }
+        },
+        {
+            "id": 17,
+            "criteria": {
+                "PEPPER": "4/LETTUCE,  -2/TOMATO,  -2/CABBAGE",
+                "LETTUCE": "4/PEPPER,  -2/ONION,  -2/CARROT",
+                "CARROT": "4/CABBAGE,  -2/PEPPER,  -2/ONION",
+                "CABBAGE": "4/CARROT,  -2/LETTUCE,  -2/TOMATO",
+                "ONION": "4/TOMATO,  -1/CABBAGE,  -2/PEPPER",
+                "TOMATO": "4/ONION,  -2/CARROT,  -2/LETTUCE"
+            }
+        },
+        {
+            "id": 18,
+            "criteria": {
+                "PEPPER": "MOST TOTAL VEGETABLE = 10",
+                "LETTUCE": "FEWEST TOTAL VEGETABLE = 7",
+                "CARROT": "5 / VEGETABLE TYPE >=3",
+                "CABBAGE": "5 / MISSING VEGETABLE TYPE",
+                "ONION": "3 / VEGETABLE TYPE >=2",
+                "TOMATO": "COMPLETE SET = 12"
+            }
+        }
+    ]
+}
